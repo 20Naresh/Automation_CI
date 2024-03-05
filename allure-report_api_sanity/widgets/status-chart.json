@@ -1,0 +1,1 @@
+[{"uid":"b10957d83cc9bc1f","name":"Load the URL","time":{"start":1709553065593,"stop":1709553069319,"duration":3726},"status":"passed","severity":"normal"},{"uid":"2aa6bcaffca8dff3","name":"HTTP GET request test","time":{"start":1709629716189,"stop":1709629717674,"duration":1485},"status":"passed","severity":"normal"}]

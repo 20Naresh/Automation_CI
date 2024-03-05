@@ -1,0 +1,42 @@
+Implementation plan
+
+<--- Page Object Model ---> 
+    Reusabilty of locators and actions for Sanity, Regression and even functional
+
+// Playwright in-build locators
+    page.getByRole, getByText, getByPlaceholder, getByAltText ....  
+// Code Generator -- Record and play script    
+// Assertion methods need to develop  -- Hard assertion vs Soft assertion
+// Generic methods
+     Radio button, checkbox, dropdown, Multi select drop dropdown,
+     alerts, iframes, webtable, mousehover, right click, double click
+     drag and drop, keywboard actions
+     upload files, multiple windows
+     
+// Waits  
+// hooks
+// Grouping tests -- Sanity, functional, Regression  
+// Tagging -- @Sanity @Regression 
+// Reporting -- screenshots, record a video, trace viewer
+// Annotations - only, skip, fixme, and slow 
+
+// Common -- Retry failed testcases
+
+// API test
+// Accessibility test
+
+
+
+// list of hooks
+
+beforeAll:
+Executed first, once before all test cases in a test suite.
+
+beforeEach:
+Executed before each test case (it block) within a test suite.
+
+afterEach:
+Executed after each test case (it block) within a test suite.
+
+afterAll:
+Executed last, once after all test cases in a test suite have finished.
