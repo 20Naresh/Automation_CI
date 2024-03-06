@@ -16,6 +16,6 @@ test('Load the URL', async() => {
     const context = await browser.newContext();
     const page = await context.newPage(); // Define 'page' variable here
     await page.goto('https://www.google.co.in/');
-    await page.waitForTimeout(30000); 
+    await page.waitForTimeout(60000); 
     await browser.close();   
 });
